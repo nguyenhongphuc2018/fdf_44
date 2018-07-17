@@ -51,7 +51,7 @@ ActiveRecord::Schema.define(version: 20180717084342) do
   create_table "products", force: :cascade do |t|
     t.string "name"
     t.float "price"
-    t.text "decription"
+    t.text "descriptions"
     t.integer "category_id"
     t.integer "average_point"
     t.datetime "created_at", null: false

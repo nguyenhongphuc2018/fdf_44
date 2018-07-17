@@ -30,4 +30,12 @@ group :development do
   gem "web-console", "3.5.1"
 end
 
+<<<<<<< 8e261acc88d5a03a958a25e8bda50f6d8d3caba3
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
+=======
+<<<<<<< 8e261acc88d5a03a958a25e8bda50f6d8d3caba3
+gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
+=======
+gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
+>>>>>>> init project
+>>>>>>> Create README.md

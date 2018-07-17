@@ -1,0 +1,15 @@
+<div class="column">
+  <div class="post-module">
+    <div class="thumbnail">
+      <div class="date">
+        <div class="day">New</div>
+      </div><img src=""/>
+    </div>
+    <div class="post-content">
+      <div class="category"><%= product.name%></div>
+      <h1 class="title"><%= product.price.to_s %></h1>
+      <p><%= truncate product.descriptions, length: 50 %> <%= link_to  "more", product %></p>
+      <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"><%= product.average_point %> point</a></span></div>
+    </div>
+  </div>
+</div>
